@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.top-image,
+.bottom-image {
+  margin: 10px; /* Adjust the spacing as desired */
+}
+
+.top-image img,
+.bottom-image img {
+  width: 100px; /* Adjust the width as desired */
+  height: 100px; /* Adjust the height as desired */
+}
+
+.image-description {
+  color: blueviolet; /* Adjust the font color as desired */
+}
+
+h1 {
+  font-size: 32px; 
+  margin-bottom: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:blue
+}
+
+h2 {
+  font-size: 24px; 
+  margin-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:chocolate
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+}
